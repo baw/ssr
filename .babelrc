@@ -1,0 +1,16 @@
+{
+    "plugins": [
+        "transform-react-jsx",
+        "transform-object-rest-spread"
+    ],
+    "presets": [
+        [
+            "env",
+            {
+                "targets": {
+                    "chrome": "65"
+                }
+            }
+        ]
+    ]
+}
