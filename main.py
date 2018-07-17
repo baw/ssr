@@ -13,6 +13,7 @@ items = {}
 @app.route('/<path:path>')
 def index(path):
     props = {
+        'location': path,
         'items': items
     }
     rendered = render_component(
